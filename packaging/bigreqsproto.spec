@@ -17,9 +17,7 @@ BuildRequires: pkgconfig(xorg-macros)
 %setup -q
 
 %build
-
-./autogen.sh
-%reconfigure --disable-static \
+%configure --disable-static \
              --libdir=%{_datadir} \
              --without-xmlto
 
