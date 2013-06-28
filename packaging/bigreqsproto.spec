@@ -6,6 +6,7 @@ Group:    Development/System
 License:  MIT
 URL:      http://www.x.org
 Source0:  %{name}-%{version}.tar.bz2
+Source1001: 	bigreqsproto.manifest
 
 BuildRequires: pkgconfig
 BuildRequires: pkgconfig(xorg-macros)
@@ -15,6 +16,7 @@ BuildRequires: pkgconfig(xorg-macros)
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 %configure --disable-static \
@@ -29,6 +31,7 @@ make %{?jobs:-j%jobs}
 %remove_docs
 
 %files
+%manifest %{name}.manifest
 %license COPYING
 %defattr(-,root,root,-)
 %{_includedir}/X11/extensions/*
