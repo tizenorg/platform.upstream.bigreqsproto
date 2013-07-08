@@ -1,0 +1,8 @@
+Change-Id: I9c104bb0def203be5601759859eee7ddcef397bc
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 10:05:50 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4646
+Project: platform/upstream/bigreqsproto
+Branch: refs/heads/tizen
