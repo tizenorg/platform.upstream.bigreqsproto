@@ -1,3 +1,5 @@
+%bcond_with x
+
 Name:     bigreqsproto
 Summary:  X.Org X11 Protocol bigreqsproto
 Version:  1.1.2
